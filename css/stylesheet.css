@@ -1,0 +1,46 @@
+#wrapper{
+	width:850px;
+	margin:auto;
+}
+#text{
+	width:450px;
+	padding:10px;
+	font-family:"Comic Sans MS";
+	font-size:15px;
+	color:#008000;
+}
+form div{
+	padding:10px;
+	border:1px solid #ccc;
+	margin-top:15px;
+}
+form.controls {
+	width:300px;
+	padding:15px;
+	float:right;
+}
+h1, h2{
+	margin:0;
+	padding:0;
+}
+.matched{
+	color:orange;
+	background-color: #BA9EB0; 
+}
+div.saveResult {
+	margin-top:20px;
+	text-align:center;
+	border:0px;
+}
+.pokedex-icon {
+	height: 50px;
+	width: auto;
+	margin-right: 25px;
+}
+.pokemon-wrapper {
+	display: table;
+}
+.pokemon-wrapper * {
+	display: inline-table-cell;
+	vertical-align: middle;
+}
